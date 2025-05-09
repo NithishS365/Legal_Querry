@@ -1,0 +1,6 @@
+faiss-cpu
+numpy
+tqdm
+requests
+sentence-transformers
+scikit-learn
