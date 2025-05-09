@@ -6,7 +6,7 @@ def ask_ollama(prompt, model="llama3"):
         "model": model,
         "prompt": prompt,
         "stream": False
-    }
+    } 
     response = requests.post(url, json=payload)
     if response.status_code == 200:
         return response.json()["response"]
